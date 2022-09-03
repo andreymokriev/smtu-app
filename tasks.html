@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="favicon.png" type="image/png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+
+      <nav>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Задания</a>
+        </div>
+      </nav>
+
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img style="margin-top: 30px;" src="images/logo.png">
+          </div>
+          <a href="#!name"><span class="white-text name" style="margin-top:70px"></span></a>
+          <a href="#!email"><span class="white-text email"></span></a>
+        </div></li>
+        <li><a href="index.html"><i class="material-icons">home</i>Главная страница</a></li>
+        <li><a href="lessons.html"><i class="material-icons">article</i>Расписание уроков</a></li>
+        <li><a href="school-info.html"><i class="material-icons">help outline</i>Информация о школе</a></li>
+        <li><a href="teachers.html"><i class="material-icons">face</i>Учителя</a></li>
+        <li><a href="bells.html"><i class="material-icons">schedule</i>Расписание звонков</a></li>
+        <li><a href="tasks.html"><i class="material-icons">work</i>Домашнее задание</a></li>
+        <li><a href="documents.html"><i class="material-icons">description</i>Документы</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Разное</a></li>
+        <li><a class="waves-effect" href="info.html">Информация о приложении</a></li>
+      </ul>
+
+      <!--Page Content-->
+
+      <form action="subjectChoice">
+        <select id="select" name="subjectSelect" class="subject-select">
+          <option value="russian">Русский язык</option>
+          <option value="math">Математика</option>
+          <option value="literature">Литература</option>
+          <option value="english">Английский язык</option>
+          <option value="informatics">Информатика</option>
+          <option value="history">История</option>
+          <option value="physics">Физика</option>
+          <option value="biology">Биология</option>
+          <option value="chemistry">Химия</option>
+          <option value="astronomy">Астрономия</option>
+          <option value="geography">География</option>
+          <option value="obzh">ОБЖ</option>
+          <option value="pe">Физкультура</option>
+        </select>
+        <textarea id="txtarea" cols="30" rows="10"></textarea>
+        <div>
+      </form>
+      <div class="waves-effect waves-light btn save-button" onclick="taskSave(); M.toast({html: 'Сохранено'})">Сохранить</div><div class="waves-effect waves-light btn load-button" onclick="taskLoad(); M.toast({html: 'Загружено'})">Загрузить</div>
+      </div>
+
+      <!--JavaScript-->
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script>
+        var elem = document.querySelector('.sidenav');
+        var instance = new M.Sidenav(elem);
+      </script>
+      <script src="js/app.js"></script>
+    </body>
+  </html>
