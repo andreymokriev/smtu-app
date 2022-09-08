@@ -50,8 +50,10 @@ function getLessons() {
 
   lessonsQuery = document.querySelectorAll('.lesson');
   for (let i = 0; i < lessonsQuery.length; i++) {
-    lessonsQuery[i].textContent = lessons[date][i];
-    lessonsQuery[i].textContent = i+1 + '. ' + lessonsQuery[i].textContent;
+    if (lessons[date][i] != '') {
+      lessonsQuery[i].textContent = lessons[date][i];
+      lessonsQuery[i].textContent = i+1 + '. ' + lessonsQuery[i].textContent;
+    }
   }
 }
 
