@@ -985,7 +985,7 @@
 }
 
 .custom-purple {
-  background-color: #7d67cc !important;
+  background-color: #26418f !important;
 }
 
 .teal-text {
@@ -5857,7 +5857,7 @@ body.keyboard-focused .dropdown-content li:focus {
   line-height: 1.5;
   padding: 1rem;
   background-color: #fff;
-  border-bottom: 1px solid #7e57c2;
+  border-bottom: 1px solid #26418f;
 }
 
 .collapsible-header:focus {

@@ -52,7 +52,7 @@ iframe {
 }
 
 .collapsible-header, .collapsible-body {
-  background: #e6ceff;
+  background: #a0adef;
 }
 
 .subject-select {
@@ -64,11 +64,11 @@ textarea {
 }
 
 .save-button {
-  background-color: #7d67cc;
+  background-color: #26418f;
 }
 
 .load-button {
-  margin-left: 20px; background-color: #7d67cc;
+  margin-left: 20px; background-color: #26418f;
 }
 
 .collapsible-lessons {
@@ -77,7 +77,7 @@ textarea {
 }
 
 .bellcard {
-  background-color: #e6ceff;
+  background-color: #a0adef;
   font-size: 15px;
   font-weight: 500;
 }
@@ -87,7 +87,15 @@ textarea {
 }
 
 .teachers-card {
-  background-color: #e6ceff;
+  background-color: #a0adef;
   font-weight: 450;
   font-size: 23px;
+}
+
+.lessonsh3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight:400;
+  color: white;
+  margin-left: 20px;
 }
