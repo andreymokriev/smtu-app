@@ -103,11 +103,3 @@ textarea {
 .contact-link {
   font-size: 25px;
 }
-
-.nopadding {
-  padding: 1px;
-}
-
-.group-select {
-  display: block; margin-top: 10px;
-}

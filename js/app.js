@@ -1,11 +1,5 @@
 let date;
 
-function Initialize() {
-  if (localStorage.getItem('group') !== undefined) {
-    localStorage.setItem('group','20121')
-  }
-}
-
 //Вывод времени
 function showTime(){
   date = new Date();
@@ -85,7 +79,6 @@ function getLessons() {
       lessonsQuery[i].textContent = i+1 + '. ' + lessonsQuery[i].textContent;
     }
   }
-
 }
 
 // Tasks
@@ -114,19 +107,5 @@ function taskLoad() {
    }
   }
   txtarea.value = localStorage.getItem(subject);
-}
-
-function setGroup() {
-  groupOptions = document.querySelector('select');
-  for (let i = 0; i < groupOptions.length; i++) {
-    if (groupOptions[i].selected) {
-     selected = groupOptions[i].value;
-    }
-   }
-  
-  if (selected != '') {
-    localStorage.setItem('group',selected)
-  }
-  
 }
 

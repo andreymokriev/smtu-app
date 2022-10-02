@@ -5,7 +5,6 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <link rel="stylesheet" href="css/style.css">
       <link rel="shortcut icon" href="favicon.png" type="image/png">
-      <script src="js/app.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
@@ -41,37 +40,23 @@
       </ul>
 
       <!--Page Content-->
-      <!--
+
       <div class="row">
         <div class="col s12">
-          <div class="card-panel custom-purple nopadding">
+          <div class="card-panel custom-purple">
             <span class="white-text">
-              <h2>Выбор группы:</h2>
+              <h2>В разработке</h2>
             </span>
           </div>
         </div>
       </div>
-      <div class="input-field col s12">
-        <select>
-          <option value="" disabled selected>Выберите группу</option>
-          <option value="20121">20121</option>
-          <option value="3126">3126</option>
-        </select>
-      </div>
-      <a class="waves-effect waves-light btn" onclick = "setGroup()">Сохранить</a>
 
-    -->
       <!--JavaScript-->
 
       <script type="text/javascript" src="js/materialize.js"></script>
       <script>
         var elem = document.querySelector('.sidenav');
         var instance = new M.Sidenav(elem);
-
-        document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('select');
-        var groupSelector = M.FormSelect.init(elems, options);
-        });
       </script>
     </body>
   </html>
