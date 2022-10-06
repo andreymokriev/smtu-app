@@ -1,2 +1,22 @@
 # smtu-app
- Fork of school-app for smtu
+
+## Простое приложение для быстрого доступа к информации университета
+
+[Сайт на GithubPages](https://andreymokriev.github.io/smtu-app/)
+
+## Список возможностей:
+
+* Расписание на день
+* Общее расписание
+* Быстрый доступ к открытию ИСУ и Sakai
+* Блокнот для домашнего задания
+* Учебная литература
+* Контакты
+* Преподаватели
+
+## Скриншоты
+
+!()[screeenshots/1.png]
+!()[screeenshots/2.png]
+!()[screeenshots/3.png]
+!()[screeenshots/4.png]
